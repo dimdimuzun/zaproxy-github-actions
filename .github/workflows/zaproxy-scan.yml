@@ -27,6 +27,5 @@ jobs:
         uses: zaproxy/action-baseline@v0.13.0
         with:
           docker_name: 'zaproxy/zap-stable'
-          target: 'https://www.zaproxy.org'
-          rules_file_name: '.zap/rules.tsv'
+          target: 'https://demo.owasp-juice.shop'
           cmd_options: '-a'
