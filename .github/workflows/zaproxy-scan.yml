@@ -16,6 +16,7 @@ jobs:
       contents: write
       pull-requests: write
       repository-projects: write
+      issues: write
     name: Scan the web applications
     steps:
       - name: Checkout
